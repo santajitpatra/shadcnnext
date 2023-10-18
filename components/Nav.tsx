@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import { ModeToggle } from './ui/ModeToggle'
+import Link from 'next/link'
 
 const Nav = () => {
     return (
@@ -21,6 +22,9 @@ const Nav = () => {
                                 height={24}
                             />
                         </a>
+                    </li>
+                    <li>
+                     <Link href="/games">Games</Link>
                     </li>
                     <li>
                         <ModeToggle />

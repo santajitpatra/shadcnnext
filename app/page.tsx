@@ -1,3 +1,4 @@
+import { AccordionList } from '@/components/AccordionList'
 import Nav from '@/components/Nav'
 import { SignInForm } from '@/components/SignInForm'
 import { Button } from '@/components/ui/button'
@@ -20,6 +21,9 @@ export default function Home() {
         </Button>
   </div>
   <SignInForm/>
+  <div className='w-1/2 m-auto flex justify-center items-center mt-20'>
+    <AccordionList />
+  </div>
     </main>
   )
 }
